@@ -25,7 +25,7 @@ This is a full-stack web application that displays news articles using the Hacke
 Clone the project
 
 ```bash
-  git clone https:github.com//yumarukhan/hackernewsreact
+  git clone https:github.com//yumarukhan/testproject
 ```
 
 Install dependencies
