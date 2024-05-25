@@ -1,0 +1,20 @@
+{
+  "name": "testproject",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client-delay\"",
+    "server": "cd backend && npm start",
+    "client": "cd client && npm start",
+    "client-delay": "node delay.js && npm run client",
+    "install-server": "cd backend && npm install",
+    "install-client": "cd client && npm install",
+    "install": "concurrently \"npm run install-server\" \"npm run install-client\""
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
